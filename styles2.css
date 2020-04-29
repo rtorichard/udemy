@@ -1,0 +1,154 @@
+/* ****************************** LINKED PAGES ****************************** */
+
+/* recipes.html */
+
+
+/* ************************* HERE BE TAG SELECTORS! ************************* */
+
+body{
+  margin: 0;
+}
+
+h1{
+  font-size: 3rem;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  color: #89a3b2;
+  display: inline-block;
+}
+
+h2{
+  font-size: 2.5rem;
+  margin: 0 auto 10px auto;
+  font-family: 'Dosis', sans-serif;
+  color: #89a3b2;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+  color: #357376;
+  font-weight:bold;
+  margin: 0 auto;
+}
+
+
+/* ************************* HERE BE CLASS SELECTORS! ************************* */
+
+.nav-bar{
+  width: 100%;
+  height: 6rem;
+  background-color: #1d4d4f;
+  margin: 0 auto;
+}
+
+.menu-bar{
+  width: 60%;
+  height: 100%;
+  background-color: #1d4d4f;
+  margin: 0 auto;
+}
+
+.side-bars{
+  background-color: #e5dfdf;
+  height: 10000px;
+}
+.recipe-outer{
+  background-color: #e5dfdf;
+  width:80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.recipe-main{
+  width:90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: #e5dfdf;
+
+}
+
+.footer{
+  width: 100%;
+  height:6rem;
+  background-color: #1d4d4f;
+  margin:0 auto;
+}
+
+.start{
+  margin-left: 50px;
+}
+
+.recipe-head{
+  background-color: #89a3b2;
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.recipe-head h1{
+  color:#1d4d4f;
+}
+.recipe-detail{
+  background-color: blue;
+  height: 100%;
+  width:40%;
+  margin-right: 0;
+}
+.recipe-details-image{
+  display: inline;
+}
+
+.ingredient{
+  padding: 5px;
+  border: 2.5px solid #357376;
+  border-radius: 15%;
+  height: 80px;
+  width: 80px;
+  margin: 0 20px 0 0;
+}
+
+.ingredient-desc{
+  display: inline-block;
+  height:30px;
+  width:110px;
+  text-align: left;
+  margin: 0 0 0 5px;
+}
+
+.menu-table{
+  background-color: white;
+  border: solid darkgrey 3px;
+  border-radius: 5px;
+  border-spacing: 10px;
+}
+
+.meal-table-br{
+  background-color: lightblue;
+  border: solid darkblue 3px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.menu-table-th{
+  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+  color: #357376;
+  font-weight:bold;
+}
+
+.menu-table-tr{
+  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+  color: #357376;
+  font-weight:normal;
+  text-align: center;
+}
+
+.p-br{
+  font-family: 'Dosis', sans-serif;
+color: darkblue;
+font-weight:bolder;
+text-align: center;
+
+}
